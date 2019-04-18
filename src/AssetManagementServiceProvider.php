@@ -1,15 +1,15 @@
 <?php
 
-namespace TechlifyInc\TechlifyAssetManagement;
+namespace Techlify\AssetManagement;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Description of TechlifyAssetManagementServiceProvider
+ * Description of AssetManagementServiceProvider
  *
  * @author 
  */
-class TechlifyAssetManagementServiceProvider extends ServiceProvider
+class AssetManagementServiceProvider extends ServiceProvider
 {
 
     /**
@@ -30,12 +30,12 @@ class TechlifyAssetManagementServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(TechlifyAssetManagement::class, function ()
+        $this->app->singleton(AssetManagement::class, function ()
         {
-            return new TechlifyAssetManagement();
+            return new AssetManagement();
         });
 
-        $this->app->alias(TechlifyAssetManagement::class, 'techlify-asset-management');
+        $this->app->alias(AssetManagement::class, 'techlify-asset-management');
     }
 
 }

@@ -1,9 +1,9 @@
 <?php
 
-namespace TechlifyInc\TechlifyAssetManagement\Controllers;
+namespace Techlify\AssetManagement\Controllers;
 
 use App\Http\Controllers\Controller;
-use TechlifyInc\TechlifyAssetManagement\Models\Asset;
+use Techlify\AssetManagement\Models\Asset;
 use Illuminate\Http\Request;
 
 class AssetController extends Controller

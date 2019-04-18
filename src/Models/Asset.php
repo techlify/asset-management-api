@@ -1,6 +1,6 @@
 <?php
 
-namespace TechlifyInc\TechlifyAssetManagement\Models;
+namespace Techlify\AssetManagement\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use App\User;
