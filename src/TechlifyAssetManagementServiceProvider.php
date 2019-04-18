@@ -32,10 +32,10 @@ class TechlifyAssetManagementServiceProvider extends ServiceProvider
     {
         $this->app->singleton(TechlifyAssetManagement::class, function ()
         {
-            return new TechlifySimpleInventory();
+            return new TechlifyAssetManagement();
         });
 
-        $this->app->alias(TechlifySimpleInventory::class, 'techlify-simple-inventory');
+        $this->app->alias(TechlifyAssetManagement::class, 'techlify-asset-management');
     }
 
 }

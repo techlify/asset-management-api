@@ -1,16 +1,16 @@
 <?php
 
-namespace TechlifyInc\TechlifySimpleInventory;
+namespace TechlifyInc\TechlifyAssetManagement;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * Description of TechlifySimpleInventoryFacade
+ * Description of TechlifyAssetManagementFacade
  *
  * @author 
  * @since
  */
-class TechlifySimpleInventoryFacade extends Facade
+class TechlifyAssetManagementFacade extends Facade
 {
 
     protected static function getFacadeAccessor()
