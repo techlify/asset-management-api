@@ -15,7 +15,7 @@ class AssetManagementFacade extends Facade
 
     protected static function getFacadeAccessor()
     {
-        return 'asset-management';
+        return 'asset-management-api';
     }
 
 }

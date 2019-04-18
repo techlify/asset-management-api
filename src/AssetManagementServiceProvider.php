@@ -35,7 +35,7 @@ class AssetManagementServiceProvider extends ServiceProvider
             return new AssetManagement();
         });
 
-        $this->app->alias(AssetManagement::class, 'asset-management');
+        $this->app->alias(AssetManagement::class, 'asset-management-api');
     }
 
 }
